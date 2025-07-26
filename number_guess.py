@@ -18,5 +18,5 @@ def number_guessing_game():
             print(f"🎉 Congratulations! You guessed the number in {attempts} attempts.")
             break
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     number_guessing_game()
